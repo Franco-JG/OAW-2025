@@ -2,7 +2,7 @@
 
 Este repositorio corresponde a la entregas exponenciales de un proyecto de optimización web, que consiste en desarrollar un lector web de **RSS Feeds** personalizable.
 
-## 🥷 Integrantes del Equipo
+## 👾 Integrantes del Equipo
 
 <div align="center">
   <table>
@@ -31,4 +31,17 @@ El repositorio debe estar organizado en **entregas**. Para esto, utiliza el leng
 
 ## 📋 Instrucciones de la Entrega 1
 
-En esta primera entrega ...
+En esta primera entrega desarrollarán la primera versión de un lector Web de RSS feeds personalizable. 
+La aplicación deberá tener las siguiente funcionalidades:
+
+- El usuario definirá la url de los feeds que utilizará (uno o más).
+- La aplicación colectará todas las noticias y las almacenará en una base de datos.
+- El proceso de actualización de las noticias será activado por el usuario mediante un botón.
+- Las noticias deben presentar su fecha, título, url, descripción y categorías.
+- Cuando la página principal se presente listará las noticias ordenadas por fecha. El usuario puede ordenarlas por cualquier campo.
+- El usuario utilizará una caja de texto para buscar noticias que coincidan con el texto proporcionado.
+- 
+Utilicen imágenes y estilos para darle una apariencia atractiva al sitio. Podrán utilizar componentes, frameworks y cualquier biblioteca que consideren conveniente.
+Se recomienda PHP. NO CONSIDEREN NINGUN ASPECTO DE OPTIMIZACIÓN.
+
+---
