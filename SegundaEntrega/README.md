@@ -29,19 +29,15 @@ El repositorio debe estar organizado en **entregas**. Para esto, utiliza el leng
 
 ---
 
-## 📋 Instrucciones de la Entrega 1
+## 📋 Instrucciones de la Entrega 2
+En esta segunda entrega presentarán los primeros resultados del desempeño la aplicación web desarrollada en la entrega anterior, en términos de la optimización de las tecnologías del lado del cliente. Para ello deberán entregar una presentación que incluya:
 
-En esta primera entrega desarrollarán la primera versión de un lector Web de RSS feeds personalizable. 
-La aplicación deberá tener las siguiente funcionalidades:
+- Captura de la página web principal.
+- Tamaño total de la vista principal, así como su distribución en término de componentes (html, css, js, imágenes, etc.) antes y después de la optimización.
+- Métricas relacionadas con el tiempo de descarga, maquetado, visualización, etc. antes y después de la optimización desde su máquina local.
+- Nivel alcanzado en la herramienta de evaluación LightHouse antes y después de la optimización-
+- Por cada tecnología del lado del cliente describir acciones que se aplicaron.
+- La versión mejorada deberá estar en un directorio diferente de su repositorio del proyecto.
 
-- El usuario definirá la url de los feeds que utilizará (uno o más).
-- La aplicación colectará todas las noticias y las almacenará en una base de datos.
-- El proceso de actualización de las noticias será activado por el usuario mediante un botón.
-- Las noticias deben presentar su fecha, título, url, descripción y categorías.
-- Cuando la página principal se presente listará las noticias ordenadas por fecha. El usuario puede ordenarlas por cualquier campo.
-- El usuario utilizará una caja de texto para buscar noticias que coincidan con el texto proporcionado.
-- 
-Utilicen imágenes y estilos para darle una apariencia atractiva al sitio. Podrán utilizar componentes, frameworks y cualquier biblioteca que consideren conveniente.
-Se recomienda PHP. NO CONSIDEREN NINGUN ASPECTO DE OPTIMIZACIÓN.
 
 ---
