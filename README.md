@@ -44,4 +44,13 @@ La aplicación deberá tener las siguiente funcionalidades:
 Utilicen imágenes y estilos para darle una apariencia atractiva al sitio. Podrán utilizar componentes, frameworks y cualquier biblioteca que consideren conveniente.
 Se recomienda PHP. NO CONSIDEREN NINGUN ASPECTO DE OPTIMIZACIÓN.
 
+## 📋 Instrucciones de la Entrega 2
+En esta segunda entrega presentarán los primeros resultados del desempeño la aplicación web desarrollada en la entrega anterior, en términos de la optimización de las tecnologías del lado del cliente. Para ello deberán entregar una presentación que incluya:
+
+- Captura de la página web principal.
+- Tamaño total de la vista principal, así como su distribución en término de componentes (html, css, js, imágenes, etc.) antes y después de la optimización.
+- Métricas relacionadas con el tiempo de descarga, maquetado, visualización, etc. antes y después de la optimización desde su máquina local.
+- Nivel alcanzado en la herramienta de evaluación LightHouse antes y después de la optimización.
+- Por cada tecnología del lado del cliente describir acciones que se aplicaron.
+- La versión mejorada deberá estar en un directorio diferente de su repositorio del proyecto.
 ---
