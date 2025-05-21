@@ -5,8 +5,11 @@
     },
     "autoload": {
         "psr-4": {
-            "Franco\\Backend\\": "src/"
-        }
+            "OAW\\Backend\\": "src/"
+        },
+        "files": [
+            "src/Utils/FeedUtils.php"
+        ]
     },
     "authors": [
         {

@@ -1,8 +1,6 @@
 <?php
 
-namespace OAW\Backend\Controllers;
-
-use OAW\Backend\Models\News;
+require_once "../models/News.php";
 
 class NewsController {
     private $model;

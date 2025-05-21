@@ -1,0 +1,2 @@
+<?php
+ namespace OAW\Backend\Models; class Feed { private $conn; public function __construct($db) { $this->conn = $db; } public function getFeeds() { $sql = "SELECT * FROM feeds ORDER BY created_at DESC"; $result = $this->conn->query($sql); return $result->fetch_all(MYSQLI_ASSOC); } public function addFeed($data) { $stmt = $this->conn->prepare("INSERT INTO feeds (url, name) VALUES (?, ?)"); $stmt->bind_param("ss", $data['url'], $data['name']); return $stmt->execute(); } } ?>

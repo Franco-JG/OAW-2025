@@ -3,9 +3,6 @@
  * Archivo de enrutamiento de la API REST
  * Maneja las diferentes rutas y endpoints de la aplicación
  */
-
-require_once __DIR__ . '/../vendor/autoload.php';
-
 header("Access-Control-Allow-Origin: *");       // Permitir acceso desde cualquier origen
 header("Content-Type: application/json");       // Establecer tipo de respuesta como JSON
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS"); // Métodos permitidos
@@ -19,9 +16,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
 
 // Importar controladores y crear instancias
 require_once '../config/database.php';          // Primero la conexión
-use OAW\Backend\Controllers\FeedController;
-use OAW\Backend\Controllers\NewsController;
-use OAW\Backend\Services\FeedService;
+require_once '../controllers/FeedController.php';    // Controlador de feeds
+require_once '../controllers/NewsController.php';    // Controlador de noticias
+require_once '../services/FeedService.php';
 
 $feedService = new FeedService($conn);
 // Crear instancias de los controladores

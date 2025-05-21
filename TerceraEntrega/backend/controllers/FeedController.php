@@ -1,9 +1,7 @@
 <?php
 
-namespace OAW\Backend\Controllers;
-
-use OAW\Backend\Models\Feed;
-use function OAW\Backend\Utils\getFeedNameFromUrl;
+require_once "../models/Feed.php";
+require_once "../utils/feed_utils.php";
 
 class FeedController {
     private $model;
