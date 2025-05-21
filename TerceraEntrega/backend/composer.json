@@ -1,0 +1,17 @@
+{
+    "name": "franco/backend",
+    "require": {
+        "simplepie/simplepie": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Franco\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Franco-JG",
+            "email": "jeftefranco@outlook.com"
+        }
+    ]
+}
